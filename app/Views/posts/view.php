@@ -1,0 +1,2 @@
+<p class="text-center h6" style="color: gray;"><?= esc($posts['author']) ?> &#x2022; <?= date("F j, Y", strtotime(esc($posts['created_at']))) ?></p>
+<p style="margin-left: 15em; margin-right: 15em"><?= esc($posts['body']) ?></p>
